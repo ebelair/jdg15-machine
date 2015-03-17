@@ -1,0 +1,104 @@
+@font-face {
+	font-family: "DS-Digi";
+	src: url(../fonts/ds.ttf);
+}
+html, body {
+	height: 100%; width: 100%; background: #000;
+	position: relative;
+}
+.jdg {
+	width: 100vw; 
+	height: 80vw; /* 100/56.25 = 1.778 */
+	max-height: 100vh;
+	max-width: 125vh; /* 16/9 = 1.778 */
+	background: url(../images/bg.jpg) top center no-repeat;
+	background-size: contain;
+	position: relative;
+	margin: 0 auto;
+}
+.jdg div {
+	display: block;
+	position: absolute;
+}
+.jdg span {
+	position: absolute;
+	font-family: "DS-Digi";
+	font-size: 11.9vh;
+	top: 0%;
+	right: 0%;
+}
+.jdg span.placeholder {
+	opacity: 0.225;
+}
+
+.delegation, .time {
+	color: #f58d20;
+	top: 8.7%;
+}
+.delegation {
+	left: 6.85%;
+	width: 75%;
+}
+.delegation span {
+	left: 0%;
+}
+.time {
+	right: 7.60%;
+	width: 25%;
+}
+
+.laps, .laps-max {
+	color: #51c139;
+	top: 33.85%;
+	right: 57.15%;
+	text-align: right;
+	width: 25%;
+}
+
+.laps-max {
+	right: 11.15%;
+}
+
+.bags, .bags-max {
+	color: #ddc436;
+	top: 59.05%;
+	right: 57.15%;
+	text-align: right;
+	width: 25%;
+}
+
+.bags-max {
+	right: 11.15%;
+}
+
+.info {
+	position: absolute;
+	right: 7%;
+	bottom: 5%;
+	background: #ffffff;
+	opacity: 0.92;
+	padding: 10px 14px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.75);
+}
+.info h3 {
+	margin: 0; padding: 0;
+	margin-bottom: 4px;
+}
+.info ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0; padding: 0;
+	vertical-align: middle;
+}
+.info ul:not(:last-child) {
+	margin-right: 12px;
+}
+.info li {
+	
+}
+.info strong {
+	display: inline-block;
+	width: 20px;
+	text-align: center;
+}
